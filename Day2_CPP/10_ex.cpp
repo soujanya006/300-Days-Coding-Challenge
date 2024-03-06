@@ -1,15 +1,19 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     int sides = 0;
-    if (sides = 4){
-        cout<< "its a rectangle "<< endl;
+    if (sides = 4)
+    {
+        cout << "its a rectangle " << endl;
     }
-    else if (sides = 2){
+    else if (sides = 2)
+    {
         cout << " its a line :" << endl;
     }
-    else {
+    else
+    {
         cout << " its nothing:" << endl;
     }
     return 0;

@@ -2,9 +2,10 @@
 #include <vector>
 using namespace std;
 
-//jagged arrray
+// jagged arrray
 
-int main() {
+int main()
+{
     // Creating rows with different sizes and initializing them with values
     vector<int> vec1(10, 0);
     vector<int> vec2(5, 1);
@@ -23,8 +24,11 @@ int main() {
     brr.push_back(vec5);
 
     // Iterating over the 2D vector to print its contents
-    for (int i = 0; i < brr.size(); i++) {
-        for (int j = 0; j < brr[i].size(); j++) {
+    for (int i = 0; i < brr.size(); i++)
+    {
+        for (int j = 0; j < brr[i].size(); j++)
+        {
+
             cout << brr[i][j] << " ";
         }
         cout << endl;

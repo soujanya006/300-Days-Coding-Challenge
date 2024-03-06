@@ -13,7 +13,7 @@ bool isEven(int number) {
 int main() {
     int num = 4;
     if (isEven(num)) {
-        cout << num << " is even." << endl;
+        cout << num << " is even.     " << endl;
     } else {
         cout << num << " is not even." << endl;
     }
