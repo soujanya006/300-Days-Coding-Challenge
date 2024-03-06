@@ -24,5 +24,13 @@ int main()
         {1, 0, -1, 0},
         {0, 1, 0, -1}};
 
+    for (int i = 2; i <= 5; i++)
+    {
+        for (int j = 2; j <= 5; j++)
+        {
+            cout << image[i][j] << " ";
+        }
+        cout << endl;
+    }
     return 0;
 }
