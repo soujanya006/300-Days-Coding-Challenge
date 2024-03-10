@@ -4,10 +4,6 @@
 
 using namespace std;
 
-vector<vector<int>> array1(const vector<vector<int>> &arr)
-{
-}
-
 void array2(const vector<vector<int>> &arr)
 {
     // Your code here
