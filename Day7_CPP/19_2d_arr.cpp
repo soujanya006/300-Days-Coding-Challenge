@@ -6,9 +6,9 @@ using namespace std;
 
 bool searchElement(const std::vector<std::vector<int>> &array, int target)
 {
-    for (size_t i = 0; i < array.size(); ++i)
+    for (int i = 0; i < array.size(); ++i)
     { // Iterate over each row
-        for (size_t j = 0; j < array[i].size(); ++j)
+        for (int j = 0; j < array[i].size(); ++j)
         { // Iterate over each column in the current row
             if (array[i][j] == target)
             {
