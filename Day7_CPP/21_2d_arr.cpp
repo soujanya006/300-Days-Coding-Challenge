@@ -16,8 +16,10 @@ int row_sum(const vector<vector<int>> &array)
         for (int j = 0; j < array[i].size(); ++j)
 
         {
+            sum = sum + array[i][j];
             // Iterate over each column in the current row.
         }
+        cout << sum << endl;
     }
 }
 int main()
