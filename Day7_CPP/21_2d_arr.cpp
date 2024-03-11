@@ -5,22 +5,20 @@
 
 using namespace std;
 
-int max_element(const vector<vector<int>> &array)
+int row_sum(const vector<vector<int>> &array)
 {
-    int max = INT_MIN;
+
     for (int i = 0; i < array.size(); ++i)
-    { // Iterate over each row
+
+    { // Iterate over each row.
+        int sum = 0;
+
         for (int j = 0; j < array[i].size(); ++j)
-        { // Iterate over each column in the current row
-            if (array[i][j] > max)
-            {
-                // max element
-                max = array[i][j];
-            }
+
+        {
+            // Iterate over each column in the current row.
         }
     }
-
-    return max;
 }
 int main()
 {
@@ -30,6 +28,6 @@ int main()
         {4, 35, 6},
         {7, 8, 9}};
 
-    cout << max_element(array1) << endl;
+    row_sum(array1);
     return 0;
 }
