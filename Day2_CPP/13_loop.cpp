@@ -8,7 +8,7 @@ int main()
         cout << " outer Loop: " << i << endl;
         for (int j = 0; j < 5; j++)
         {
-            cout << "inner loop: " << j << endl;
+            cout << "inner loop:" << j << endl;
         }
     }
     return 0;
