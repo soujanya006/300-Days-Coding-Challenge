@@ -8,10 +8,10 @@ int main()
 {
     // Creating rows with different sizes and initializing them with values
     vector<int> vec1(10, 0);
-    vector<int> vec2(5, 1);
-    vector<int> vec3(7, 0);
-    vector<int> vec4(3, 1);
-    vector<int> vec5(20, 0);
+    vector<int> vec2(5, 2);
+    vector<int> vec3(7, 5);
+    vector<int> vec4(3, 8);
+    vector<int> vec5(8, 4);
 
     // Creating a 2D vector (vector of vectors)
     vector<vector<int>> brr;
