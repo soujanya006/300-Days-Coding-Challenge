@@ -12,7 +12,7 @@ int main() {
     } else if (value < 0) {
         cout << "Negative number" << endl;
     } else {
-        cout << "It's zero" << endl;
+        cout << "It's zero " << endl;
     }
     return 0;
 }
