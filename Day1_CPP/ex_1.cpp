@@ -7,5 +7,6 @@ int main(){
     cout<<"enter the marks"<<endl;
     cin>>marks;
     cout<<marks;
+    
     return 0;
 }

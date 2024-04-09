@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// Here we are beginng loops.
+// Here we are beginning loops.
 int main(){
     int number = 1;
     for(int i = 1; i < 4; i++){
