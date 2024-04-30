@@ -1,16 +1,17 @@
 #include <iostream>
 using namespace std;
 
-int add_num(int a, int b){
+int add_num(int a, int b)
+{
     return a + b;
 }
 
-int main(){
-    cout << add_num( 3,5) << endl;
+int main()
+{
+    cout << add_num(3, 5) << endl;
 
     return 0;
 }
-
 
 // #include <iostream>
 

@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// linear search 
+
 int main()
 {
     cout << "hello:" << endl;

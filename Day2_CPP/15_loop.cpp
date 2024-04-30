@@ -4,7 +4,7 @@ using namespace std;
 int main (){
     for(int i = 0 ; i <= 100; i++){
         if(i % 2 ==0){
-            cout << "even number :" << i << endl;
+            cout << "number :" << i << endl;
         }
     }
     return 0;
